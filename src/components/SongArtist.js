@@ -3,6 +3,7 @@ import React from 'react'
 const SongArtist = ({artist}) => {
 
   console.log(artist)
+  if (!artist) return null
 
   return (
     
