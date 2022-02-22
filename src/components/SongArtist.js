@@ -2,6 +2,8 @@ import React from 'react'
 
 const SongArtist = ({artist}) => {
 
+  console.log(artist)
+
   return (
     
     <section>

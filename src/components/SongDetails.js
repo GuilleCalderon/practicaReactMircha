@@ -6,6 +6,7 @@ import SongLyric from './SongLyric'
 const SongDetails = ({search,lyric,bio}) => {
 
     if(!lyric || !bio) return null
+    console.log(bio)
 
   return (
     <>
